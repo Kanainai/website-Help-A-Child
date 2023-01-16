@@ -8,9 +8,15 @@
     width: 100%;
     background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(1.jpg);
     background-position: center;
+    object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
     height: 109vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
 }
 
 .navbar{
@@ -163,7 +169,7 @@ ul li a:hover{
     height: 380px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: absolute;
-    top: 120px;
+    top: 90px;
     left: 870px;
     border-radius: 30px;
     padding: 25px;
